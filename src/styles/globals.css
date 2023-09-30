@@ -2,26 +2,132 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+main {
+  margin-top: 6rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.nav-overlay {
+  /* background-color: rgba(0, 0, 0, 0.529); */
+  z-index: 1;
+  width: 100%;
+  min-height: 100%;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.ani-nav-link {
+  position: relative;
+}
+.ani-nav-drop {
+  position: relative;
+}
+.ani-nav-link a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: #57c3a6;
+  visibility: hidden;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: 0.25s linear;
+}
+.ani-nav-drop button:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background: #57c3a6;
+  visibility: hidden;
+  border-radius: 5px;
+  transform: scaleX(0);
+  transition: 0.25s linear;
+}
+
+.ani-nav-link a:focus:before,
+.ani-nav-link a:hover:before,
+.ani-nav-drop button:focus:before,
+.ani-nav-drop button:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+/* // Slider //  */
+.slide {
+  opacity: 0;
+  transition: opacity 0.5s ease-in;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-size: contain;
+}
+.slide1 {
+  /* background-image: url("../../../assets/images/slider1.webp"); */
+  /* background-image: url("../../../assets/images/students-graduation.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide2 {
+  /* background-image: url("../../../assets/images/slider2.webp"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide3 {
+  /* background-image: url("../../../assets/images/slider3.jpg"); */
+  /* background-image: url("../../../assets/images/medium-shot-low-angle-view-engineer-architect-supervising-construction.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slide.active {
+  opacity: 1;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.slick-dots li {
+  margin: 0 5px;
+}
+
+.slick-dots li button:before {
+  font-size: 12px;
+  color: #333;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #fff;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(14, 28, 45, 0.75);
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* transition: opacity 0.3s ease-in-out; */
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  width: 100%;
 }
