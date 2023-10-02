@@ -20,151 +20,151 @@ const uni18 = "/ast/images/uniform/uni18.jpeg";
 
 // mens
 // mens pant
-const mens1 = "/public/ast/images/mens-pants/woven-12-1.jpg";
-const mens2 = "/public/ast/images/mens-pants/woven-16-1.jpg";
-const mens3 = "/public/ast/images/mens-pants/woven-17-1.jpg";
-const mens4 = "/public/ast/images/mens-pants/woven-21-1.jpg";
-const mens5 = "/public/ast/images/mens-pants/woven-25-1.jpg";
-const mens6 = "/public/ast/images/mens-pants/woven-37-1.jpg";
+const mens1 = "/ast/images/mens-pants/woven-12-1.jpg";
+const mens2 = "/ast/images/mens-pants/woven-16-1.jpg";
+const mens3 = "/ast/images/mens-pants/woven-17-1.jpg";
+const mens4 = "/ast/images/mens-pants/woven-21-1.jpg";
+const mens5 = "/ast/images/mens-pants/woven-25-1.jpg";
+const mens6 = "/ast/images/mens-pants/woven-37-1.jpg";
 
 // mens shirt
-const mens7 = "/public/ast/images/shirt/shirt-1-1.jpg";
-const mens8 = "/public/ast/images/shirt/shirt-10-1.jpg";
-const mens9 = "/public/ast/images/shirt/shirt-11-1.jpg";
-const mens10 = "/public/ast/images/shirt/shirt-14-1.jpg";
-const mens11 = "/public/ast/images/shirt/shirt-15-1.jpg";
-const mens12 = "/public/ast/images/shirt/shirt-16-1.jpg";
-const mens13 = "/public/ast/images/shirt/shirt-18-1.jpg";
-const mens14 = "/public/ast/images/shirt/shirt-2-1.jpg";
-const mens15 = "/public/ast/images/shirt/shirt-3-1.jpg";
-const mens16 = "/public/ast/images/shirt/shirt-7-1.jpg";
-const mens17 = "/public/ast/images/shirt/shirt-9-1.jpg";
+const mens7 = "/ast/images/shirt/shirt-1-1.jpg";
+const mens8 = "/ast/images/shirt/shirt-10-1.jpg";
+const mens9 = "/ast/images/shirt/shirt-11-1.jpg";
+const mens10 = "/ast/images/shirt/shirt-14-1.jpg";
+const mens11 = "/ast/images/shirt/shirt-15-1.jpg";
+const mens12 = "/ast/images/shirt/shirt-16-1.jpg";
+const mens13 = "/ast/images/shirt/shirt-18-1.jpg";
+const mens14 = "/ast/images/shirt/shirt-2-1.jpg";
+const mens15 = "/ast/images/shirt/shirt-3-1.jpg";
+const mens16 = "/ast/images/shirt/shirt-7-1.jpg";
+const mens17 = "/ast/images/shirt/shirt-9-1.jpg";
 
 // mens shorts
-const mens18 = "/public/ast/images/shorts/Cargo-Shorts-11-1.jpg";
-const mens19 = "/public/ast/images/shorts/Cargo-Shorts-14-1.jpg";
-const mens20 = "/public/ast/images/shorts/Cargo-Shorts-16-1.jpg";
-const mens21 = "/public/ast/images/shorts/Cargo-Shorts-2-1.jpg";
-const mens22 = "/public/ast/images/shorts/Cargo-Shorts-4-1.jpg";
-const mens23 = "/public/ast/images/shorts/Cargo-Shorts-7-1.jpg";
-const mens24 = "/public/ast/images/shorts/Cargo-Shorts-8-1.jpg";
+const mens18 = "/ast/images/shorts/Cargo-Shorts-11-1.jpg";
+const mens19 = "/ast/images/shorts/Cargo-Shorts-14-1.jpg";
+const mens20 = "/ast/images/shorts/Cargo-Shorts-16-1.jpg";
+const mens21 = "/ast/images/shorts/Cargo-Shorts-2-1.jpg";
+const mens22 = "/ast/images/shorts/Cargo-Shorts-4-1.jpg";
+const mens23 = "/ast/images/shorts/Cargo-Shorts-7-1.jpg";
+const mens24 = "/ast/images/shorts/Cargo-Shorts-8-1.jpg";
 
 // mens swimwear
-const mens25 = "/public/ast/images/men-swimwear/Swimmingwear-Shorts-1-1.jpg";
-const mens26 = "/public/ast/images/men-swimwear/Swimmingwear-Shorts-10-1.jpg";
-const mens27 = "/public/ast/images/men-swimwear/Swimmingwear-Shorts-11-1.jpg";
-const mens28 = "/public/ast/images/men-swimwear/Swimmingwear-Shorts-12-1.jpg";
-const mens29 = "/public/ast/images/men-swimwear/Swimmingwear-Shorts-14-1.jpg";
-const mens30 = "/public/ast/images/men-swimwear/Swimmingwear-Shorts-17-1.jpg";
-const mens31 = "/public/ast/images/men-swimwear/Swimmingwear-Shorts-19-1.jpg";
-const mens32 = "/public/ast/images/men-swimwear/Swimmingwear-Shorts-2-1.jpg";
-const mens33 = "/public/ast/images/men-swimwear/Swimmingwear-Shorts-20-1.jpg";
-const mens34 = "/public/ast/images/men-swimwear/Swimmingwear-Shorts-32-1.jpg";
-const mens35 = "/public/ast/images/men-swimwear/Swimmingwear-Shorts-4-1.jpg";
+const mens25 = "/ast/images/men-swimwear/Swimmingwear-Shorts-1-1.jpg";
+const mens26 = "/ast/images/men-swimwear/Swimmingwear-Shorts-10-1.jpg";
+const mens27 = "/ast/images/men-swimwear/Swimmingwear-Shorts-11-1.jpg";
+const mens28 = "/ast/images/men-swimwear/Swimmingwear-Shorts-12-1.jpg";
+const mens29 = "/ast/images/men-swimwear/Swimmingwear-Shorts-14-1.jpg";
+const mens30 = "/ast/images/men-swimwear/Swimmingwear-Shorts-17-1.jpg";
+const mens31 = "/ast/images/men-swimwear/Swimmingwear-Shorts-19-1.jpg";
+const mens32 = "/ast/images/men-swimwear/Swimmingwear-Shorts-2-1.jpg";
+const mens33 = "/ast/images/men-swimwear/Swimmingwear-Shorts-20-1.jpg";
+const mens34 = "/ast/images/men-swimwear/Swimmingwear-Shorts-32-1.jpg";
+const mens35 = "/ast/images/men-swimwear/Swimmingwear-Shorts-4-1.jpg";
 
 // mens underwear
-const mens36 = "/public/ast/images/men-underwear/Underwear-10-1.jpg";
-const mens37 = "/public/ast/images/men-underwear/Underwear-12-1.jpg";
-const mens38 = "/public/ast/images/men-underwear/Underwear-13-1.jpg";
-const mens39 = "/public/ast/images/men-underwear/Underwear-14-1.jpg";
-const mens40 = "/public/ast/images/men-underwear/Underwear-15-1.jpg";
-const mens41 = "/public/ast/images/men-underwear/Underwear-16-1.jpg";
-const mens42 = "/public/ast/images/men-underwear/Underwear-18-1.jpg";
-const mens43 = "/public/ast/images/men-underwear/Underwear-7-1.jpg";
+const mens36 = "/ast/images/men-underwear/Underwear-10-1.jpg";
+const mens37 = "/ast/images/men-underwear/Underwear-12-1.jpg";
+const mens38 = "/ast/images/men-underwear/Underwear-13-1.jpg";
+const mens39 = "/ast/images/men-underwear/Underwear-14-1.jpg";
+const mens40 = "/ast/images/men-underwear/Underwear-15-1.jpg";
+const mens41 = "/ast/images/men-underwear/Underwear-16-1.jpg";
+const mens42 = "/ast/images/men-underwear/Underwear-18-1.jpg";
+const mens43 = "/ast/images/men-underwear/Underwear-7-1.jpg";
 
 // womens
 // tops
-const women1 = "/public/ast/images/tops/tops-10-1.jpg";
-const women2 = "/public/ast/images/tops/tops-14-1.jpg";
-const women3 = "/public/ast/images/tops/tops-16-1.jpg";
-const women4 = "/public/ast/images/tops/tops-17-1.jpg";
-const women5 = "/public/ast/images/tops/tops-18-1.jpg";
-const women6 = "/public/ast/images/tops/tops-19-1.webp";
-const women7 = "/public/ast/images/tops/tops-3-1.webp";
-const women8 = "/public/ast/images/tops/tops-4-1.jpg";
-const women9 = "/public/ast/images/tops/tops-5-1.jpg";
-const women10 = "/public/ast/images/tops/tops-7-1.jpg";
-const women11 = "/public/ast/images/tops/tops-8-1.jpg";
-const women12 = "/public/ast/images/tops/tops-9-1.jpg";
+const women1 = "/ast/images/tops/tops-10-1.jpg";
+const women2 = "/ast/images/tops/tops-14-1.jpg";
+const women3 = "/ast/images/tops/tops-16-1.jpg";
+const women4 = "/ast/images/tops/tops-17-1.jpg";
+const women5 = "/ast/images/tops/tops-18-1.jpg";
+const women6 = "/ast/images/tops/tops-19-1.webp";
+const women7 = "/ast/images/tops/tops-3-1.webp";
+const women8 = "/ast/images/tops/tops-4-1.jpg";
+const women9 = "/ast/images/tops/tops-5-1.jpg";
+const women10 = "/ast/images/tops/tops-7-1.jpg";
+const women11 = "/ast/images/tops/tops-8-1.jpg";
+const women12 = "/ast/images/tops/tops-9-1.jpg";
 
 // women swimwear
-const women13 = "/public/ast/images/women-swimwear/Knits_Ladies-1-1.jpg";
-const women14 = "/public/ast/images/women-swimwear/Knits_Ladies-2-1.jpg";
-const women15 = "/public/ast/images/women-swimwear/Knits_Ladies-3-1.jpg";
-const women16 = "/public/ast/images/women-swimwear/ladies_bra-10-1.jpg";
-const women17 = "/public/ast/images/women-swimwear/ladies_bra-13-1.jpg";
-const women18 = "/public/ast/images/women-swimwear/ladies_bra-14-1.jpg";
-const women19 = "/public/ast/images/women-swimwear/ladies_bra-6-1.jpg";
-const women20 = "/public/ast/images/women-swimwear/ladies_bra-7-1.jpg";
-const women21 = "/public/ast/images/women-swimwear/ladies_bra-8-1.jpg";
-const women22 = "/public/ast/images/women-swimwear/ladies_bra-9-1.jpg";
-const women23 = "/public/ast/images/women-swimwear/Swimmingwear-Shorts-6-1.jpg";
+const women13 = "/ast/images/women-swimwear/Knits_Ladies-1-1.jpg";
+const women14 = "/ast/images/women-swimwear/Knits_Ladies-2-1.jpg";
+const women15 = "/ast/images/women-swimwear/Knits_Ladies-3-1.jpg";
+const women16 = "/ast/images/women-swimwear/ladies_bra-10-1.jpg";
+const women17 = "/ast/images/women-swimwear/ladies_bra-13-1.jpg";
+const women18 = "/ast/images/women-swimwear/ladies_bra-14-1.jpg";
+const women19 = "/ast/images/women-swimwear/ladies_bra-6-1.jpg";
+const women20 = "/ast/images/women-swimwear/ladies_bra-7-1.jpg";
+const women21 = "/ast/images/women-swimwear/ladies_bra-8-1.jpg";
+const women22 = "/ast/images/women-swimwear/ladies_bra-9-1.jpg";
+const women23 = "/ast/images/women-swimwear/Swimmingwear-Shorts-6-1.jpg";
 
 // women pants
-const women24 = "/public/ast/images/womens-pants/wb-10-1.jpg";
-const women25 = "/public/ast/images/womens-pants/wb-3-1.jpg";
-const women26 = "/public/ast/images/womens-pants/wb-6-1.jpg";
-const women27 = "/public/ast/images/womens-pants/wb-7-1.jpg";
-const women28 = "/public/ast/images/womens-pants/wb-8-1.jpg";
-const women29 = "/public/ast/images/womens-pants/wb-9-1.jpg";
-const women30 = "/public/ast/images/womens-pants/woven-12-1.jpg";
-const women31 = "/public/ast/images/womens-pants/woven-15-1.jpg";
-const women32 = "/public/ast/images/womens-pants/woven-16-1.jpg";
-const women33 = "/public/ast/images/womens-pants/woven-17-1.jpg";
-const women34 = "/public/ast/images/womens-pants/woven-21-1.jpg";
-const women35 = "/public/ast/images/womens-pants/woven-25-1.jpg";
-const women36 = "/public/ast/images/womens-pants/woven-37-1.jpg";
-const women37 = "/public/ast/images/womens-pants/woven-39-1.jpg";
+const women24 = "/ast/images/womens-pants/wb-10-1.jpg";
+const women25 = "/ast/images/womens-pants/wb-3-1.jpg";
+const women26 = "/ast/images/womens-pants/wb-6-1.jpg";
+const women27 = "/ast/images/womens-pants/wb-7-1.jpg";
+const women28 = "/ast/images/womens-pants/wb-8-1.jpg";
+const women29 = "/ast/images/womens-pants/wb-9-1.jpg";
+const women30 = "/ast/images/womens-pants/woven-12-1.jpg";
+const women31 = "/ast/images/womens-pants/woven-15-1.jpg";
+const women32 = "/ast/images/womens-pants/woven-16-1.jpg";
+const women33 = "/ast/images/womens-pants/woven-17-1.jpg";
+const women34 = "/ast/images/womens-pants/woven-21-1.jpg";
+const women35 = "/ast/images/womens-pants/woven-25-1.jpg";
+const women36 = "/ast/images/womens-pants/woven-37-1.jpg";
+const women37 = "/ast/images/womens-pants/woven-39-1.jpg";
 
 // women underwear
-const women38 = "/public/ast/images/women-underwear/Knits_Ladies-4-1.jpg";
-const women39 = "/public/ast/images/women-underwear/ladies_bra-11-1.jpg";
-const women40 = "/public/ast/images/women-underwear/ladies_bra-15-2.jpg";
-const women41 = "/public/ast/images/women-underwear/ladies_bra-5-1.jpg";
-const women42 = "/public/ast/images/women-underwear/Underwear-21-1.jpg";
-const women43 = "/public/ast/images/women-underwear/Underwear-22-1.jpg";
-const women44 = "/public/ast/images/women-underwear/Underwear-23-1.jpg";
-const women45 = "/public/ast/images/women-underwear/Underwear-24-1.jpg";
-const women46 = "/public/ast/images/women-underwear/Underwear-26-1.jpg";
-const women47 = "/public/ast/images/women-underwear/Underwear-27-1.jpg";
-const women48 = "/public/ast/images/women-underwear/Underwear-33-1.jpg";
+const women38 = "/ast/images/women-underwear/Knits_Ladies-4-1.jpg";
+const women39 = "/ast/images/women-underwear/ladies_bra-11-1.jpg";
+const women40 = "/ast/images/women-underwear/ladies_bra-15-2.jpg";
+const women41 = "/ast/images/women-underwear/ladies_bra-5-1.jpg";
+const women42 = "/ast/images/women-underwear/Underwear-21-1.jpg";
+const women43 = "/ast/images/women-underwear/Underwear-22-1.jpg";
+const women44 = "/ast/images/women-underwear/Underwear-23-1.jpg";
+const women45 = "/ast/images/women-underwear/Underwear-24-1.jpg";
+const women46 = "/ast/images/women-underwear/Underwear-26-1.jpg";
+const women47 = "/ast/images/women-underwear/Underwear-27-1.jpg";
+const women48 = "/ast/images/women-underwear/Underwear-33-1.jpg";
 
 // others
 // blazer
-const others1 = "/public/ast/images/blazer/blazer-1-1.jpg";
-const others2 = "/public/ast/images/blazer/blazer-11-1.jpg";
-const others3 = "/public/ast/images/blazer/blazer-12-1.jpg";
-const others4 = "/public/ast/images/blazer/blazer-13-1.jpg";
-const others5 = "/public/ast/images/blazer/blazer-6-2.jpg";
-const others6 = "/public/ast/images/blazer/blazer-7-1.jpg";
-const others7 = "/public/ast/images/blazer/blazer-8-1.jpg";
-const others8 = "/public/ast/images/blazer/blazer-9-1.jpg";
+const others1 = "/ast/images/blazer/blazer-1-1.jpg";
+const others2 = "/ast/images/blazer/blazer-11-1.jpg";
+const others3 = "/ast/images/blazer/blazer-12-1.jpg";
+const others4 = "/ast/images/blazer/blazer-13-1.jpg";
+const others5 = "/ast/images/blazer/blazer-6-2.jpg";
+const others6 = "/ast/images/blazer/blazer-7-1.jpg";
+const others7 = "/ast/images/blazer/blazer-8-1.jpg";
+const others8 = "/ast/images/blazer/blazer-9-1.jpg";
 
 // jacket
-const others9 = "/public/ast/images/jacket/Jacket-16-1.jpg";
-const others10 = "/public/ast/images/jacket/Jacket-19-1.jpg";
-const others11 = "/public/ast/images/jacket/Jacket-2-1.jpg";
-const others12 = "/public/ast/images/jacket/Jacket-22-1.jpg";
-const others13 = "/public/ast/images/jacket/Jacket-23-1.jpg";
-const others14 = "/public/ast/images/jacket/Jacket-24-1.jpg";
-const others15 = "/public/ast/images/jacket/Jacket-27-1.jpg";
-const others16 = "/public/ast/images/jacket/Jacket-31-1.jpg";
-const others17 = "/public/ast/images/jacket/Jacket-4-1.jpg";
-const others18 = "/public/ast/images/jacket/Jacket-43-1.jpg";
-const others19 = "/public/ast/images/jacket/Jacket-47-1.jpg";
-const others20 = "/public/ast/images/jacket/Jacket-5-1.jpg";
-const others21 = "/public/ast/images/jacket/Jacket-6-1.jpg";
+const others9 = "/ast/images/jacket/Jacket-16-1.jpg";
+const others10 = "/ast/images/jacket/Jacket-19-1.jpg";
+const others11 = "/ast/images/jacket/Jacket-2-1.jpg";
+const others12 = "/ast/images/jacket/Jacket-22-1.jpg";
+const others13 = "/ast/images/jacket/Jacket-23-1.jpg";
+const others14 = "/ast/images/jacket/Jacket-24-1.jpg";
+const others15 = "/ast/images/jacket/Jacket-27-1.jpg";
+const others16 = "/ast/images/jacket/Jacket-31-1.jpg";
+const others17 = "/ast/images/jacket/Jacket-4-1.jpg";
+const others18 = "/ast/images/jacket/Jacket-43-1.jpg";
+const others19 = "/ast/images/jacket/Jacket-47-1.jpg";
+const others20 = "/ast/images/jacket/Jacket-5-1.jpg";
+const others21 = "/ast/images/jacket/Jacket-6-1.jpg";
 
 // workweaar
-const others22 = "/public/ast/images/workwear/workwear-13-1.jpg";
-const others23 = "/public/ast/images/workwear/workwear-25-1.jpg";
-const others24 = "/public/ast/images/workwear/workwear-26-1.jpg";
-const others25 = "/public/ast/images/workwear/workwear-27-1.jpg";
-const others26 = "/public/ast/images/workwear/workwear-31-1.jpg";
-const others27 = "/public/ast/images/workwear/workwear-34-1.jpg";
-const others28 = "/public/ast/images/workwear/workwear-35-1.jpg";
-const others29 = "/public/ast/images/workwear/workwear-36-1.jpg";
-const others30 = "/public/ast/images/workwear/workwear-37-1.jpg";
+const others22 = "/ast/images/workwear/workwear-13-1.jpg";
+const others23 = "/ast/images/workwear/workwear-25-1.jpg";
+const others24 = "/ast/images/workwear/workwear-26-1.jpg";
+const others25 = "/ast/images/workwear/workwear-27-1.jpg";
+const others26 = "/ast/images/workwear/workwear-31-1.jpg";
+const others27 = "/ast/images/workwear/workwear-34-1.jpg";
+const others28 = "/ast/images/workwear/workwear-35-1.jpg";
+const others29 = "/ast/images/workwear/workwear-36-1.jpg";
+const others30 = "/ast/images/workwear/workwear-37-1.jpg";
 
 export const uniform = [
   {
