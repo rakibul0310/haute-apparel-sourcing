@@ -12,9 +12,8 @@ export default function Home() {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [pathname]);
   return (
-    <main>
-      <h1>Hello World</h1>
+    <div>
       <HeroSlider />
-    </main>
+    </div>
   );
 }

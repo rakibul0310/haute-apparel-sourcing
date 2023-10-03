@@ -66,18 +66,18 @@ main {
   background-size: contain;
 }
 .slide1 {
-  /* background-image: url("../../../assets/images/slider1.webp"); */
+  background-image: url("../assets/images/slider1.jpg");
   /* background-image: url("../../../assets/images/students-graduation.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
 .slide2 {
-  /* background-image: url("../../../assets/images/slider2.webp"); */
+  background-image: url("../assets/images/slider2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
 .slide3 {
-  /* background-image: url("../../../assets/images/slider3.jpg"); */
+  background-image: url("../assets/images/slider3.jpg");
   /* background-image: url("../../../assets/images/medium-shot-low-angle-view-engineer-architect-supervising-construction.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
@@ -117,17 +117,7 @@ main {
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(14, 28, 45, 0.75);
-  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* background-color: rgba(14, 28, 45, 0.75); */
+  background-color: rgba(0, 0, 0, 0.5);
   /* transition: opacity 0.3s ease-in-out; */
-}
-
-.content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #fff;
-  width: 100%;
 }

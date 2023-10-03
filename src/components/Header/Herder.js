@@ -45,9 +45,9 @@ const Header = ({
               alt="Logo"
             /> */}
             <div className="flex flex-col justify-center items-start">
-              <span className="font-medium">Russell</span>
+              <span className="font-medium">Haute</span>
               <span className="self-center text-lg md:text-2xl font-bold whitespace-nowrap text-[#002147]">
-                Global Consultancy
+                Apparel Sourcing
               </span>
             </div>
           </Link>

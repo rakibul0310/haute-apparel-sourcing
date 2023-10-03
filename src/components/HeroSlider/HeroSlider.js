@@ -21,32 +21,23 @@ const HeroSlider = ({ slides }) => {
     infinite: true,
     speed: 1000, // Adjust the speed as needed
     autoplay: true,
-    autoplaySpeed: 3000, // Adjust the autoplay speed as needed
+    autoplaySpeed: 6000, // Adjust the autoplay speed as needed
     slidesToShow: 1,
     slidesToScroll: 1,
+    pauseOnHover: false,
     arrows: false, // Hide the next and previous arrows
   };
   return (
     <div className="over">
-      <h2>Infinite Autoplay Slider</h2>
       <Slider {...settings}>
-        <div>
-          <img
-            src="https://www.usnews.com/object/image/0000018a-3d19-dfa2-ab9f-bfdd163c0000/gettyimages-1355430861.jpg?update-time=1693242221902&size=responsive970"
-            alt="Slide 1"
-          />
+        <div className="slide1 relative min-h-[100vh]">
+          <div className="overlay"></div>
         </div>
-        <div>
-          <img
-            src="https://www.usnews.com/object/image/0000018a-3d19-dfa2-ab9f-bfdd163c0000/gettyimages-1355430861.jpg?update-time=1693242221902&size=responsive970"
-            alt="Slide 2"
-          />
+        <div className="slide2 relative min-h-[100vh]">
+          <div className="overlay"></div>
         </div>
-        <div>
-          <img
-            src="https://www.usnews.com/object/image/0000018a-3d19-dfa2-ab9f-bfdd163c0000/gettyimages-1355430861.jpg?update-time=1693242221902&size=responsive970"
-            alt="Slide 3"
-          />
+        <div className="slide3 relative min-h-[100vh]">
+          <div className="overlay"></div>
         </div>
         {/* Add more slides as needed */}
       </Slider>
