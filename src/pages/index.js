@@ -1,4 +1,3 @@
-import Container from "@/components/Container/Container";
 import HeroSlider from "@/components/HeroSlider/HeroSlider";
 import { Inter } from "next/font/google";
 import { useRouter } from "next/router";
