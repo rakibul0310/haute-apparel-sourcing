@@ -7,7 +7,7 @@ const SecondarySectionHeader = ({ title, subTitle }) => {
         {title}
       </h2>
       <div className="w-full lg:w-1/2">
-        <p className="w-full p-3 text-2xl lg:text-5xl font-semibold">
+        <p className="w-full p-3 text-2xl lg:text-4xl font-semibold">
           {subTitle}
         </p>
       </div>

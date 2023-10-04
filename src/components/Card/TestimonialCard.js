@@ -7,10 +7,10 @@ const TestimonialCard = ({ image, name, designation, review }) => {
       <div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow cursor-pointer hover:shadow-lg transition-all duration-300">
         <div className="flex justify-end px-4 pt-4"></div>
         <div className="flex flex-col items-center pb-10">
-          <div className="w-26 h-24 relative">
+          <div className="w-24 h-24 relative">
             <Image
               fill
-              className="w-26 h-24 mb-3 rounded-full shadow-lg"
+              className="w-24 h-24 mb-3 rounded-full shadow-lg"
               src={image}
               alt="Bonnie"
             />

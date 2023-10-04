@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React, { useState } from "react";
 
-const CategoryCard = ({ title, image }) => {
+const CategoryCard = ({ title, image, cls }) => {
   const [hovered, setHovered] = useState(false);
   return (
     <div
-      className="category-card flex items-end justify-center relative overflow-hidden h-[500px] w-[250px] cursor-pointer"
+      className={`flex items-end justify-center relative overflow-hidden h-[500px] w-[250px] cursor-pointer ${cls}`}
       onMouseOver={() => setHovered(true)}
       onMouseOut={() => setHovered(false)}
     >

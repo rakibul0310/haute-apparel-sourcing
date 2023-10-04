@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  /* background: #f1f1f1; */
+  background: #002147;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #57c3a6;
+  border-radius: 40px;
+}
+
 main {
   margin-top: 6rem;
 }
@@ -126,8 +140,29 @@ main {
   box-shadow: 1px 5px 8px rgba(0, 0, 0, 0.3);
 }
 
-.category-card {
-  background-image: url("../assets/images/slider1.jpg");
+.category-card1,
+.category-card2,
+.category-card3,
+.category-card4 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.category-card1 {
+  background-image: url("../assets/images/category-bg1.jpg");
+}
+.category-card2 {
+  background-image: url("../assets/images/category-bg2.jpg");
+}
+.category-card3 {
+  background-image: url("../assets/images/category-bg3.jpg");
+}
+.category-card4 {
+  background-image: url("../assets/images/category-bg4.jpg");
+}
+
+.business-with-us {
+  background-image: url("../assets/images/map-1.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
