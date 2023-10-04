@@ -1,4 +1,5 @@
 import HeroSlider from "@/components/HeroSlider/HeroSlider";
+import WhatWeDo from "@/sectionContainers/Home/WhatWeDo";
 import { Inter } from "next/font/google";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
@@ -14,6 +15,7 @@ export default function Home() {
   return (
     <div>
       <HeroSlider />
+      <WhatWeDo />
     </div>
   );
 }
