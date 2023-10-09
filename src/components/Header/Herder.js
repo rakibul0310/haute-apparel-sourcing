@@ -104,7 +104,7 @@ const Header = ({
                 }}
               >
                 <Link
-                  href="/"
+                  href="/about"
                   className="block py-2 pl-3 pr-4 text-gray-900 hover:text-[#57C3A6] bg-transparent md:p-0 "
                   aria-current="page"
                 >
