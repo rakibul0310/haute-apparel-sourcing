@@ -148,7 +148,7 @@ const Header = ({
                     >
                       <li onClick={() => setShowNav(false)}>
                         <Link
-                          href="/products/uniform"
+                          href="/products/uniforms"
                           className="block text-[1rem] font-semibold text-gray-800 hover:text-[#57C3A6] capitalize px-4 text-start py-2 hover:bg-gray-300 "
                         >
                           UNIFORM
@@ -156,7 +156,7 @@ const Header = ({
                       </li>
                       <li onClick={() => setShowNav(false)}>
                         <Link
-                          href="/products/men"
+                          href="/products/mens"
                           className="block text-[1rem] font-semibold text-gray-800 hover:text-[#57C3A6] px-4 text-start py-2 capitalize hover:bg-gray-300 "
                         >
                           {"MEN'S"}
@@ -164,7 +164,7 @@ const Header = ({
                       </li>
                       <li onClick={() => setShowNav(false)}>
                         <Link
-                          href="/products/women"
+                          href="/products/womens"
                           className="block text-[1rem] font-semibold text-gray-800 hover:text-[#57C3A6] px-4 text-start py-2 capitalize hover:bg-gray-300"
                         >
                           {"WOMEN'S"}
@@ -172,7 +172,7 @@ const Header = ({
                       </li>
                       <li onClick={() => setShowNav(false)}>
                         <Link
-                          href="/products/other"
+                          href="/products/others"
                           className="block text-[1rem] font-semibold text-gray-800 hover:text-[#57C3A6] px-4 text-start py-2 capitalize hover:bg-gray-300"
                         >
                           {"OTHER"}
@@ -187,7 +187,7 @@ const Header = ({
                 onClick={() => setShowNav(false)}
               >
                 <Link
-                  href="/"
+                  href="/services"
                   className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 hover:text-[#57C3A6] md:p-0 "
                 >
                   OUR SERVICES
