@@ -1,6 +1,17 @@
 import React from "react";
 
-const SearchInput = ({ cls }) => {
+const SearchInput = ({ cls, setCurrentProducts, currentProducts }) => {
+  const handleChange = (e) => {
+    setCurrentProducts([]);
+    setTimeout(() => {
+      const filteredProducts = currentProducts?.map(
+        (c) => c?.toLowerCase() === e.target.value?.toLowerCase()
+      );
+      filteredProducts?.length > 0
+        ? setCurrentProducts(filteredProducts)
+        : setCurrentProducts(currentProducts);
+    }, 1500);
+  };
   return (
     <>
       <form className={`${cls}`}>
@@ -11,7 +22,14 @@ const SearchInput = ({ cls }) => {
           Search
         </label>
         <div class="relative">
-          <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+          <input
+            onChange={(e) => handleChange(e)}
+            type="search"
+            id="default-search"
+            class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-100 focus:border-gray-400 ring-0 outline-none shadow-md"
+            placeholder="Search Products..."
+          />
+          <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
             <svg
               class="w-4 h-4 text-gray-500"
               aria-hidden="true"
@@ -28,19 +46,6 @@ const SearchInput = ({ cls }) => {
               />
             </svg>
           </div>
-          <input
-            type="search"
-            id="default-search"
-            class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-100 focus:border-gray-400 ring-0 outline-none shadow-md"
-            placeholder="Search Mockups, Logos..."
-            required
-          />
-          <button
-            type="submit"
-            class="text-white absolute right-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 font-medium rounded-lg text-sm px-4 py-2"
-          >
-            Search
-          </button>
         </div>
       </form>
     </>

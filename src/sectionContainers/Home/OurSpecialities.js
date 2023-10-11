@@ -64,7 +64,7 @@ const OurSpecialities = () => {
             "Why Do We Call Ourself #1 Garments Buying House & RMG Manufacturer"
           }
         />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-4 my-10">
           {dataObj?.map((d) => (
             <SecondaryCard
               key={d?.id}

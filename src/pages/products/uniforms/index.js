@@ -1,13 +1,42 @@
+import Container from "@/components/Container/Container";
+import PrimarySkeleton from "@/components/Skeleton/PrimarySkeleton";
+import { uniform } from "@/data/products";
 import ProductTop from "@/sectionContainers/Products/ProductTop";
-import React from "react";
+import ProductsList from "@/sectionContainers/Products/ProductsList";
+import React, { useEffect, useState } from "react";
 
-const index = () => {
+const Products = () => {
+  const [currentProducts, setCurrentProducts] = useState([]);
+  useEffect(() => {
+    setTimeout(() => setCurrentProducts(uniform), 3000);
+  }, [currentProducts]);
+
   return (
-    <div className="my-28">
-      this is all uniforms page
-      <ProductTop title={"Uniforms"} />
-    </div>
+    <Container cls="my-32">
+      <ProductTop title={"Uniforms"} values={[]} />
+      <div className="my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-5">
+        {currentProducts?.length > 0 ? (
+          currentProducts?.map((c) => (
+            <ProductsList
+              key={c?.id}
+              product={c}
+              currentProducts={currentProducts}
+              setCurrentProducts={setCurrentProducts}
+            />
+          ))
+        ) : (
+          <>
+            <PrimarySkeleton />
+            <PrimarySkeleton />
+            <PrimarySkeleton />
+            <PrimarySkeleton />
+            <PrimarySkeleton />
+            <PrimarySkeleton />
+          </>
+        )}
+      </div>
+    </Container>
   );
 };
 
-export default index;
+export default Products;

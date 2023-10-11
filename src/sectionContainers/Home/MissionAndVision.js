@@ -12,7 +12,7 @@ const MissionAndVision = () => {
             "The mission & vision of Haute Apparel Sourcing is very transparent."
           }
         />
-        <div className="my-10 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="my-10 grid grid-cols-1 md:grid-cols-2 justify-items-center gap-4">
           <div>
             <h2 className="text-2xl font-bold text-gray-800 mb-4">
               OUR MISSION

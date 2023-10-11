@@ -2,7 +2,7 @@ import React from "react";
 
 const SelectOption = ({ defValue, values }) => {
   return (
-    <div>
+    <div className="w-1/2 ps-[5rem] lg:ps-[14rem]">
       <label
         for="countries"
         class="block mb-2 text-sm font-medium text-gray-900"
@@ -11,14 +11,15 @@ const SelectOption = ({ defValue, values }) => {
       </label>
       <select
         id="countries"
-        class="bg-gray-100 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5"
+        class="bg-gray-100 border shadow-md border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5"
       >
         <option defaultValue={defValue}>{defValue}</option>
-        {values?.map((v, i) => (
-          <option key={i} value={v}>
-            {v}
-          </option>
-        ))}
+        {values?.length > 0 &&
+          values?.map((v, i) => (
+            <option key={i} value={v}>
+              {v}
+            </option>
+          ))}
       </select>
     </div>
   );

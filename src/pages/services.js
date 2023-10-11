@@ -62,7 +62,7 @@ const services = () => {
             "We are providing a variety of services, starting from Trustworthy Vendors, TQM, Sampling, Logistics to full transparency for the customer through the ERP system. The services offered will guarantee a smooth relationship and will only catalyse the speed of the process."
           }
         />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-4 my-10">
           {dataObj?.map((d) => (
             <PrimaryCard
               key={d?.id}

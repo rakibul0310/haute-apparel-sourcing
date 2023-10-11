@@ -32,7 +32,7 @@ const Testimonial = () => {
           title={"TESTIMONIALS"}
           subTitle={"Our customer Always Happy With Our Services"}
         />
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center gap-4 my-10">
           {dataObj?.map((d) => (
             <TestimonialCard
               key={d?.id}

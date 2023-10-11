@@ -40,7 +40,7 @@ const WhatWeDo = () => {
             "We help to source the best quality apparels from Bangladesh. We manufacture RMG & UNIFORMS. We are the #1 Uniform Supplier in Bangladesh"
           }
         />
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 my-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-4 my-10">
           {dataObj?.map((d) => (
             <PrimaryCard
               key={d?.id}
