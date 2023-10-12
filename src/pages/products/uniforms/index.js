@@ -3,6 +3,7 @@ import PrimarySkeleton from "@/components/Skeleton/PrimarySkeleton";
 import { uniform } from "@/data/products";
 import ProductTop from "@/sectionContainers/Products/ProductTop";
 import ProductsList from "@/sectionContainers/Products/ProductsList";
+import Link from "next/link";
 import React, { useEffect, useState } from "react";
 
 const Products = () => {
@@ -17,12 +18,13 @@ const Products = () => {
       <div className="my-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-5">
         {currentProducts?.length > 0 ? (
           currentProducts?.map((c) => (
-            <ProductsList
-              key={c?.id}
-              product={c}
-              currentProducts={currentProducts}
-              setCurrentProducts={setCurrentProducts}
-            />
+            <Link key={c?.id} href={`/products/uniforms/${c?.id}`}>
+              <ProductsList
+                product={c}
+                currentProducts={currentProducts}
+                setCurrentProducts={setCurrentProducts}
+              />
+            </Link>
           ))
         ) : (
           <>
