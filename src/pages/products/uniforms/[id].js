@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import { uniform } from "@/data/products";
 import Image from "next/image";
 import ItemTop from "@/sectionContainers/Products/ItemTop";
+import ShowItem from "@/sectionContainers/Products/ShowItem";
 
 const Uniform = () => {
   const router = useRouter();
@@ -17,7 +18,11 @@ const Uniform = () => {
         itemName={item?.title}
         currentPath={`PRODUCTS/UNIFORMS/${item?.title?.toUpperCase()}`}
       />
-      <Image src={item?.image} alt="" width={300} height={300} />
+      <ShowItem
+        image={item?.image}
+        title={item?.title}
+        subTitle={"100% Cotton s/j 180gsm"}
+      />
     </div>
   );
 };
