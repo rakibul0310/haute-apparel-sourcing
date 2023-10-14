@@ -4,6 +4,7 @@ import { uniform } from "@/data/products";
 import Image from "next/image";
 import ItemTop from "@/sectionContainers/Products/ItemTop";
 import ShowItem from "@/sectionContainers/Products/ShowItem";
+import RelatedItems from "@/components/RelatedItems/RelatedItems";
 
 const Uniform = () => {
   const router = useRouter();
@@ -23,6 +24,7 @@ const Uniform = () => {
         title={item?.title}
         subTitle={"100% Cotton s/j 180gsm"}
       />
+      <RelatedItems products={uniform} />
     </div>
   );
 };

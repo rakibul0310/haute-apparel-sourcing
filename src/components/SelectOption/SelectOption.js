@@ -1,6 +1,15 @@
-import React from "react";
+import { UniformContext } from "@/pages/products/uniforms";
+import React, { useContext } from "react";
 
 const SelectOption = ({ defValue, values }) => {
+  const { uniform, setCurrentProducts } = useContext(UniformContext);
+
+  const handleChange = (e) => {
+    const value = e.target.value;
+    const selectedProducts = uniform?.filter((u) => u?.category === value);
+    setCurrentProducts(selectedProducts);
+  };
+
   return (
     <div className="w-1/2 ps-[5rem] lg:ps-[14rem]">
       <label
@@ -12,6 +21,7 @@ const SelectOption = ({ defValue, values }) => {
       <select
         id="countries"
         class="bg-gray-100 border shadow-md border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5"
+        onChange={(e) => handleChange(e)}
       >
         <option defaultValue={defValue}>{defValue}</option>
         {values?.length > 0 &&
