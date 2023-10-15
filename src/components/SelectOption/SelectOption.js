@@ -1,12 +1,11 @@
-import { UniformContext } from "@/pages/products/uniforms";
-import React, { useContext } from "react";
+import React from "react";
 
-const SelectOption = ({ defValue, values }) => {
-  const { uniform, setCurrentProducts } = useContext(UniformContext);
-
+const SelectOption = ({ defValue, values, product, setCurrentProducts }) => {
   const handleChange = (e) => {
     const value = e.target.value;
-    const selectedProducts = uniform?.filter((u) => u?.category === value);
+    const selectedProducts = product?.filter((u) =>
+      value === "All" ? u?.category !== value : u?.category === value
+    );
     setCurrentProducts(selectedProducts);
   };
 

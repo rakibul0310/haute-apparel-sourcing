@@ -3,7 +3,7 @@ import Container from "../Container/Container";
 import Link from "next/link";
 import ProductsList from "@/sectionContainers/Products/ProductsList";
 
-const RelatedItems = ({ products }) => {
+const RelatedItems = ({ products, path }) => {
   const [relatedProducts, setRelatedProducts] = useState([]);
 
   useEffect(() => {
@@ -18,7 +18,7 @@ const RelatedItems = ({ products }) => {
       </div>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
         {relatedProducts?.map((r) => (
-          <Link key={r?.id} href={`/products/uniforms/${r?.id}`}>
+          <Link key={r?.id} href={`/products/${path}/${r?.id}`}>
             <ProductsList product={r} width={200} height={200} related={true} />
           </Link>
         ))}
