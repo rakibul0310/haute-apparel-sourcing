@@ -24,139 +24,132 @@ const Footer = () => {
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
               <div>
-                <h2 className="mb-6 text-sm font-semibold uppercase text-white">
-                  Study Services
+                <h2 className="mb-6 text-gray-700 text-sm font-semibold uppercase">
+                  {"Men's"}
                 </h2>
-                <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                  <li className="mb-4">
-                    <Link
-                      href="/services/study-australia"
-                      className="hover:underline"
-                    >
-                      Study in Australia
+                <ul className="text-gray-500 font-medium">
+                  <li className="mb-2 text-gray-500">
+                    <Link href="/products/mens" className="hover:underline">
+                      Pants
                     </Link>
                   </li>
-                  <li className="mb-4">
-                    <Link
-                      href="/services/study-newzealand"
-                      className="hover:underline"
-                    >
-                      Study in New Zealand
+                  <li className="mb-2 text-gray-500">
+                    <Link href="/products/mens" className="hover:underline">
+                      Shirts
                     </Link>
                   </li>
-                  <li className="mb-4">
-                    <Link href="/services/study-uk" className="hover:underline">
-                      Study in UK
+                  <li className="mb-2 text-gray-500">
+                    <Link href="/products/mens" className="hover:underline">
+                      Shorts
                     </Link>
                   </li>
-                  <li className="mb-4">
-                    <Link
-                      href="/services/study-europe"
-                      className="hover:underline"
-                    >
-                      Study in Europe
+                  <li className="mb-2 text-gray-500">
+                    <Link href="/products/mens" className="hover:underline">
+                      Swimware
                     </Link>
                   </li>
-                  <li className="mb-4">
-                    <Link
-                      href="/services/study-china"
-                      className="hover:underline"
-                    >
-                      Study in China
+                  <li className="mb-2 text-gray-500">
+                    <Link href="/products/mens" className="hover:underline">
+                      Underware
                     </Link>
                   </li>
                 </ul>
               </div>
               <div>
-                <h2 className="mb-6 text-sm font-semibold uppercase text-white">
-                  Recruitment Services
+                <h2 className="mb-6 text-sm font-semibold uppercase">
+                  {"Wemen's"}
                 </h2>
-                <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                  <li className="mb-4">
-                    <Link
-                      href="/services/recruitment-professions"
-                      className="hover:underline"
-                    >
-                      Professions
+                <ul className="text-gray-500 font-medium">
+                  <li className="mb-2 text-gray-500">
+                    <Link href="/products/womens" className="hover:underline">
+                      Tops
                     </Link>
                   </li>
-                  <li className="mb-4">
-                    <Link
-                      href="/services/recruitment-services"
-                      className="hover:underline"
-                    >
-                      Service
+                  <li className="mb-2 text-gray-500">
+                    <Link href="/products/womens" className="hover:underline">
+                      Swimware
                     </Link>
                   </li>
-                  <li className="mb-4">
-                    <Link
-                      href="/services/recruitment-inquiry"
-                      className="hover:underline"
-                    >
-                      Recruitment Inquiry
+                  <li className="mb-2 text-gray-500">
+                    <Link href="/products/womens" className="hover:underline">
+                      Pants
+                    </Link>
+                  </li>
+                  <li className="mb-2 text-gray-500">
+                    <Link href="/products/womens" className="hover:underline">
+                      Underware
                     </Link>
                   </li>
                 </ul>
               </div>
+
               <div>
-                <h2 className="mb-6 text-sm font-semibold uppercase text-white">
+                <h2 className="mb-6 text-sm font-semibold uppercase">
                   Contact
                 </h2>
-                <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                <ul className="text-gray-500 font-medium">
                   <li className="mb-4">
-                    <span className="text-gray-500 font-semibold inline-block">
+                    <span className="text-gray-700 font-semibold inline-block">
                       Phone:
                     </span>
-                    <span>+61469345721</span>
+                    <span className="text-gray-500"> +61469345721</span>
                   </li>
                   <li>
-                    <span className="text-gray-500 font-semibold inline-block">
+                    <span className="text-gray-700 font-semibold inline-block">
                       Email:
                     </span>
                     <a
-                      className="max-w-full break-all inline-block"
+                      className="max-w-full break-all inline-block text-gray-500"
                       href="mailto:russellglobalconsultancy@gmail.com"
                     >
-                      russellglobalconsultancy@gmail.com
+                      hauteapparelsourcing@gmail.com
                     </a>
                   </li>
                   <li className="mt-4">
-                    <span className="text-gray-500 font-semibold inline-block">
+                    <span className="text-gray-700 font-semibold inline-block">
                       Address:
                     </span>
-                    <span className="inline-block text-sm md:text-base">
-                      Bangladesh office Address:{" "}
-                    </span>
-                    <span className="inline-block text-xs md:text-base">
-                      Road 5, Sector 9, Uttara, Dhaka Bangladesh.
-                    </span>
-
-                    <span className="inline-block text-sm md:text-base">
+                    <span className="inline-block text-sm md:text-base text-gray-500">
                       Australian Office Address:
                     </span>
-                    <span className="inline-block text-xs md:text-base">
+                    <span className="inline-block text-xs md:text-base text-gray-500">
                       2 Clapham Road, Hughesdale{" "}
                     </span>
-                    <span className="inline-block text-xs md:text-base me-1">
+                    <span className="inline-block text-xs md:text-base text-gray-500 me-1">
                       VIC 3166
                     </span>
-                    <span className="inline-block text-xs md:text-base">
+                    <span className="inline-block text-xs md:text-base text-gray-500">
                       Australia
                     </span>
                   </li>
                 </ul>
               </div>
               <div>
-                <h2 className="mb-6 text-sm font-semibold uppercase text-white">
-                  Legal
+                <h2 className="mb-6 text-gray-700 text-sm font-semibold uppercase">
+                  {"Others"}
                 </h2>
-                <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                  <li className="mb-4">
+                <ul className="text-gray-500 font-medium">
+                  <li className="mb-2 text-gray-500">
+                    <Link href="/products/uniforms" className="hover:underline">
+                      Uniforms
+                    </Link>
+                  </li>
+                  <li className="mb-2 text-gray-500">
+                    <Link href="/products/others" className="hover:underline">
+                      Others
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h2 className="mb-6 text-sm font-semibold uppercase">Legal</h2>
+                <ul className="text-gray-500 font-medium">
+                  <li className="mb-4 text-gray-500">
                     <Link href="/privacy-policy" className="hover:underline">
                       Privacy Policy
                     </Link>
                   </li>
-                  <li>
+                  <li className="text-gray-500">
                     <Link href="/terms-conditions" className="hover:underline">
                       Terms &amp; Conditions
                     </Link>
@@ -165,15 +158,15 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+          <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
           <div className="sm:flex sm:items-center sm:justify-between">
-            <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
-              © 2023 Russell Global Consultancy. All Rights Reserved. Signed by
+            <span className="text-sm text-gray-500 sm:text-center">
+              © 2023 Haute Apparel Sourcing. All Rights Reserved. Signed by
               <a
                 href="https://lumosbytes.com.au/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:underline text-white"
+                className="hover:underline text-gray-700"
               >
                 {" "}
                 LumosBytes™
@@ -181,10 +174,7 @@ const Footer = () => {
               IT Solution.
             </span>
             <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-              <Link
-                href="/"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-              >
+              <Link href="/" className="text-gray-500 hover:text-gray-900">
                 <svg
                   className="w-4 h-4"
                   aria-hidden="true"
@@ -200,10 +190,7 @@ const Footer = () => {
                 </svg>
                 <span className="sr-only">Facebook page</span>
               </Link>
-              <Link
-                href="/"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-              >
+              <Link href="/" className="text-gray-500 hover:text-gray-900">
                 <svg
                   className="w-4 h-4"
                   aria-hidden="true"
@@ -215,10 +202,7 @@ const Footer = () => {
                 </svg>
                 <span className="sr-only">Discord community</span>
               </Link>
-              <Link
-                href="/"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-              >
+              <Link href="/" className="text-gray-500 hover:text-gray-900">
                 <svg
                   className="w-4 h-4"
                   aria-hidden="true"
@@ -234,10 +218,7 @@ const Footer = () => {
                 </svg>
                 <span className="sr-only">Twitter page</span>
               </Link>
-              <Link
-                href="/"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-              >
+              <Link href="/" className="text-gray-500 hover:text-gray-900">
                 <svg
                   className="w-4 h-4"
                   aria-hidden="true"
@@ -253,10 +234,7 @@ const Footer = () => {
                 </svg>
                 <span className="sr-only">GitHub account</span>
               </Link>
-              <Link
-                href="/"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
-              >
+              <Link href="/" className="text-gray-500 hover:text-gray-900">
                 <svg
                   className="w-4 h-4"
                   aria-hidden="true"
