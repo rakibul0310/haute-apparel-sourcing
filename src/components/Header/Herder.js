@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import Link from "next/link";
 import useClickOutside from "@/hooks/clickOutside";
+import logo from "../../assets/logo.png";
+import Image from "next/image";
 
 const Header = ({
   showDrop1,
@@ -39,17 +41,17 @@ const Header = ({
       >
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto lg:p-4 px-2 py-4">
           <Link href="/" className="flex items-center">
-            {/* <img
+            <Image
               src={logo}
-              className="h-12 md:h-16 w-full mr-3 rounded-full"
+              className="h-12 md:h-16 w-full mr-3 rounded-sm"
               alt="Logo"
-            /> */}
-            <div className="flex flex-col justify-center items-start">
+            />
+            {/* <div className="flex flex-col justify-center items-start">
               <span className="font-medium">Haute</span>
               <span className="self-center text-lg md:text-2xl font-bold whitespace-nowrap text-[#002147]">
                 Apparel Sourcing
               </span>
-            </div>
+            </div> */}
           </Link>
           <button
             data-collapse-toggle="navbar-dropdown"

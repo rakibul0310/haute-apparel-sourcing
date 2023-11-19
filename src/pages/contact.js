@@ -10,7 +10,7 @@ import { HiMail } from "react-icons/hi";
 const Contact = () => {
   return (
     <div className="min-h-full px-6 md:px-12 lg:px-32 pb-28 py-6 my-14 flex flex-col">
-      <h2 className="text-2xl md:text-3xl lg:text-5xl text-[#002147] font-bold my-12 text-center">
+      <h2 className="text-2xl md:text-3xl lg:text-5xl text-[#54BDA1] font-bold my-12 text-center">
         Make an Enquiry
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-[2rem]">
@@ -24,7 +24,7 @@ const Contact = () => {
                 <div className="mb-6">
                   <label
                     htmlFor="email"
-                    className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                    className="block mb-2 text-sm font-medium text-gray-900"
                   >
                     Your email
                   </label>
@@ -32,7 +32,7 @@ const Contact = () => {
                     name="email"
                     type="email"
                     id="email"
-                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                     placeholder="name@something.com"
                     required
                   />
@@ -40,7 +40,7 @@ const Contact = () => {
                 <div className="mb-6">
                   <label
                     htmlFor="text"
-                    className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                    className="block mb-2 text-sm font-medium text-gray-900"
                   >
                     Subject
                   </label>
@@ -48,33 +48,14 @@ const Contact = () => {
                     name="subject"
                     type="text"
                     id="text"
-                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
                     required
                   />
                 </div>
                 <div className="mb-6">
                   <label
-                    htmlFor="text"
-                    className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
-                  >
-                    Topic
-                  </label>
-                  <select
-                    name="topic"
-                    className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-3.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                  >
-                    <option defaultValue={"Education services"}>
-                      Education services
-                    </option>
-                    <option value={"Recruitment services"}>
-                      Recruitment services
-                    </option>
-                  </select>
-                </div>
-                <div className="mb-6">
-                  <label
                     htmlFor="message"
-                    className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+                    className="block mb-2 text-sm font-medium text-gray-900"
                   >
                     Your message
                   </label>
@@ -82,21 +63,21 @@ const Contact = () => {
                     name="message"
                     id="message"
                     rows="4"
-                    className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 focus:ring-blue-500 focus:border-blue-500"
                     placeholder="Leave a comment..."
                   ></textarea>
                 </div>
                 <input
                   type="submit"
                   value={"Submit"}
-                  className="text-white cursor-pointer bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  className="text-white cursor-pointer bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
                 />
               </form>
             </div>
           </div>
         </div>
         <div className="grid grid-cols-2 gap-0 md:gap-1 lg:gap-4">
-          <div className="flex flex-col justify-center items-center shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer p-4 bg-[#002147] text-white">
+          <div className="flex flex-col justify-center items-center shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer p-4 bg-[#0A58A2] text-white">
             <CustomIcon className="text-[2rem]">
               <FaPhoneVolume />
             </CustomIcon>
@@ -132,7 +113,7 @@ const Contact = () => {
               </a>
             </span>
           </div>
-          <div className="flex flex-col justify-center items-center shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer p-4 bg-[#002147] text-white">
+          <div className="flex flex-col justify-center items-center shadow-md hover:shadow-xl transition-all duration-300 cursor-pointer p-4 bg-[#0A58A2] text-white">
             <CustomIcon className="text-[2rem]">
               <SiMediamarkt />
             </CustomIcon>

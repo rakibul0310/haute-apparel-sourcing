@@ -1,4 +1,5 @@
 import Container from "@/components/Container/Container";
+import Link from "next/link";
 import React from "react";
 
 const BusinessWithUs = () => {
@@ -10,9 +11,12 @@ const BusinessWithUs = () => {
           <h2 className="text-3xl font-bold text-gray-800 my-2">
             Business With Us?
           </h2>
-          <button className="px-6 py-3 my-4 rounded-md text-white font-semibold bg-[#57c3a6] hover:bg-gray-900 transition-all ease-in-out duration-300">
+          <Link
+            href={"/contact"}
+            className="px-6 py-3 my-4 rounded-md text-white font-semibold bg-[#57c3a6] hover:bg-gray-900 transition-all ease-in-out duration-300"
+          >
             Contact Us
-          </button>
+          </Link>
         </div>
       </Container>
     </div>

@@ -1,5 +1,7 @@
 import Link from "next/link";
 import React from "react";
+import logo from "../../assets/logo.png";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -9,17 +11,17 @@ const Footer = () => {
           <div className="md:flex md:justify-between">
             <div className="mb-6 md:mb-0 w-full me-10">
               <Link href="/" className="flex items-center">
-                {/* <img
+                <Image
                   src={logo}
-                  className="h-[6rem] md:h-[7rem] w-1/2 md:w-full mr-3 rounded-full"
+                  className="h-[6rem] md:h-[7rem] w-1/2 mr-3 rounded-md"
                   alt="Logo"
-                /> */}
-                <div className="flex flex-col justify-center items-start">
+                />
+                {/* <div className="flex flex-col justify-center items-start">
                   <span className="font-medium">Haute</span>
                   <span className="self-center text-lg md:text-2xl font-bold whitespace-nowrap text-[#002147]">
                     Apparel Sourcing
                   </span>
-                </div>
+                </div> */}
               </Link>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-2">

@@ -12,21 +12,25 @@ const dataObj = [
     id: 1,
     image: image1,
     title: "UNIFORM",
+    link: "/products/uniforms",
   },
   {
     id: 2,
     image: image2,
     title: "MEN'S",
+    link: "/products/mens",
   },
   {
     id: 3,
     image: image3,
     title: "WOMEN'S",
+    link: "/products/womens",
   },
   {
     id: 4,
     image: image4,
     title: "OTHERS",
+    link: "/products/others",
   },
 ];
 
@@ -45,6 +49,7 @@ const ShowCase = () => {
               image={d?.image}
               title={d.title}
               cls={`category-card${d?.id}`}
+              link={d?.link}
             />
           ))}
         </div>
