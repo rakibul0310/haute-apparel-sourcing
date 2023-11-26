@@ -1,13 +1,48 @@
 import CustomIcon from "@/components/CustomIcon/CustomIcon";
-import React from "react";
+import React, { useState } from "react";
 import { FaPhoneVolume } from "react-icons/fa";
 import { BsFacebook } from "react-icons/bs";
 import { SiMediamarkt } from "react-icons/si";
 import { ImLocation } from "react-icons/im";
 import { AiFillLinkedin, AiFillTwitterCircle } from "react-icons/ai";
 import { HiMail } from "react-icons/hi";
+import emailjs from "@emailjs/browser";
+import { toast } from "react-toastify";
+import { ClipLoader } from "react-spinners";
+
+const override = {
+  display: "block",
+  borderColor: "#1E40AF",
+  backgroundColor: "#54BDA1",
+};
 
 const Contact = () => {
+  let [loading, setLoading] = useState(false);
+  let [color, setColor] = useState("#ffffff");
+  const sendMail = async (e) => {
+    e.preventDefault();
+    setLoading(true);
+    emailjs
+      .sendForm(
+        "service_dtv5j4a",
+        "template_1d8s9do",
+        e.target,
+        "-ebjWvGVOM1adht0o"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          e.target.reset();
+          toast.success("Sent successfully");
+          setLoading(false);
+        },
+        (error) => {
+          console.log(error.text);
+          toast.error("Faild to sent!");
+          setLoading(false);
+        }
+      );
+  };
   return (
     <div className="min-h-full px-6 md:px-12 lg:px-32 pb-28 py-6 my-14 flex flex-col">
       <h2 className="text-2xl md:text-3xl lg:text-5xl text-[#54BDA1] font-bold my-12 text-center">
@@ -18,7 +53,7 @@ const Contact = () => {
           <div className="flex justify-center items-center flex-col">
             <div className="flex w-full">
               <form
-                // onSubmit={sendMail}
+                onSubmit={sendMail}
                 className="w-full bg-gray-100 p-8 rounded-md"
               >
                 <div className="mb-6">
@@ -67,11 +102,22 @@ const Contact = () => {
                     placeholder="Leave a comment..."
                   ></textarea>
                 </div>
-                <input
-                  type="submit"
-                  value={"Submit"}
-                  className="text-white cursor-pointer bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
-                />
+                {loading ? (
+                  <ClipLoader
+                    color={color}
+                    loading={loading}
+                    cssOverride={override}
+                    size={50}
+                    aria-label="Loading Spinner"
+                    data-testid="loader"
+                  />
+                ) : (
+                  <input
+                    type="submit"
+                    value={"Submit"}
+                    className="text-white cursor-pointer bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center"
+                  />
+                )}
               </form>
             </div>
           </div>

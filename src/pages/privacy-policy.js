@@ -2,8 +2,12 @@ import React from "react";
 
 const PrivacyPolicy = () => {
   return (
-    <div id="accordion-collapse" data-accordion="collapse">
-      <p className="my-2 text-[1.1rem] text-gray-500 dark:text-gray-400">
+    <div
+      className="py-[120px] px-28"
+      id="accordion-collapse"
+      data-accordion="collapse"
+    >
+      <p className="my-2 text-[1.1rem] text-gray-600">
         Welcome to {"Haute Apparel Sourcing's"} Privacy Policy. We are committed
         to safeguarding the privacy of our website visitors and service users.
         This policy outlines how we collect, use, and protect your personal
@@ -12,10 +16,10 @@ const PrivacyPolicy = () => {
       <h5 className="font-semibold text-2xl mt-4 mb-2">
         Information We Collect
       </h5>
-      <p className="my-2 text-[1.1rem] text-gray-500 dark:text-gray-400">
+      <p className="my-2 text-[1.1rem] text-gray-600">
         We may collect the following types of personal information:
       </p>
-      <ul className="collapse-list overflow-x-hidden px-5 md:px-0">
+      <ul className="list-inside list-disc collapse-list overflow-x-hidden px-5 md:px-0">
         <li className="relative left-[18px] my-2 break-words">
           Contact information, including names, email addresses, phone numbers,
           and postal addresses.
@@ -35,10 +39,10 @@ const PrivacyPolicy = () => {
       <h5 className="font-semibold text-2xl mt-4 mb-2">
         How We Use Your Information
       </h5>
-      <p className="my-2 text-[1.1rem] text-gray-500 dark:text-gray-400">
+      <p className="my-2 text-[1.1rem] text-gray-600">
         We use the information collected for the following purposes:
       </p>
-      <ul className="collapse-list overflow-x-hidden px-5 md:px-0">
+      <ul className="list-inside list-disc collapse-list overflow-x-hidden px-5 md:px-0">
         <li className="relative left-[18px] my-2 break-words">
           To provide our consultancy and recruitment services.
         </li>
@@ -54,7 +58,7 @@ const PrivacyPolicy = () => {
         </li>
       </ul>
       <h5 className="font-semibold text-2xl mt-4 mb-2">Data Security</h5>
-      <p className="my-2 text-[1.1rem] text-gray-500 dark:text-gray-400">
+      <p className="my-2 text-[1.1rem] text-gray-600">
         We implement reasonable security measures to protect your personal
         information from unauthorized access, disclosure, alteration, and
         destruction.
@@ -62,19 +66,19 @@ const PrivacyPolicy = () => {
       <h5 className="font-semibold text-2xl mt-4 mb-2">
         Sharing Your Information
       </h5>
-      <p className="my-2 text-[1.1rem] text-gray-500 dark:text-gray-400">
+      <p className="my-2 text-[1.1rem] text-gray-600">
         We may share your information with trusted third parties, including
         educational institutions, employers, and service providers, when
         necessary to provide our services.
       </p>
       <h5 className="font-semibold text-2xl mt-4 mb-2">Cookies and Tracking</h5>
-      <p className="my-2 text-[1.1rem] text-gray-500 dark:text-gray-400">
+      <p className="my-2 text-[1.1rem] text-gray-600">
         We use cookies and similar tracking technologies to improve your website
         experience. You can manage your cookie preferences through your browser
         settings.
       </p>
       <h5 className="font-semibold text-2xl mt-4 mb-2">Your Rights</h5>
-      <p className="my-2 text-[1.1rem] text-gray-500 dark:text-gray-400">
+      <p className="my-2 text-[1.1rem] text-gray-600">
         You have the right to access, correct, and delete your personal
         information. To exercise these rights or if you have any questions about
         our Privacy Policy, please contact us at{" "}
